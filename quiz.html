@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/codequiz.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Code Quiz</title>
+</head>
+/*the beginning of my Quiz*/
+<body>
+    <div class="flashc" id="first">
+        <h1>This Is my Quiz Welcome</h1>
+        <h2>Enter Your UserName</h2> <br>
+        <input>
+        <button id="quizstart">Submit</button>
+
+    /* question will start here*/
+        <p id="begin" The Quiz Challenge. You will be timed to answer these questions?></p>
+        <button id="startbtn">Start</button>
+    </div>
+        <div class="flashc" id="firstques">
+            <h3>question 1: Which of the following can't be done with client-side JavaScript?</h3>
+                <div id="answerA">A. Validating a form</div>
+                <div id="answerB">B. Sending a form's contents by email</div>
+                <div id="answerC">C. Storing the form's contents to a database file on the server</div>
+        </div>
+
+        <div class="flashc" id="secondques">
+            <h3>question 2: Which of the following is not a valid JavaScript variable name?</h3>
+            <div id="answerA2">A. 2names</div>
+            <div id="answerB2">B. _first_and_last_names</div>
+            <div id="answerC2">C. FirstAndLast</div>
+        </div>
+
+        <div class="flashc" id="thirdques">
+            <h3>question 3: How does JavaScript store dates in a date object?</h3>
+            <div id="answerA3">A. The number of milliseconds since January 1st, 1970</div>
+            <div id="answerB3">B. The number of days since January 1st, 1900</div>
+            <div id="answerC3">C. The number of seconds since Netscape's public stock offering.</div>
+        </div>
+
+        <div class="flashc" id="fourthques">
+            <h3>question 4: Which types of image maps can be used with JavaScript?</h3>
+            <div id="answerA4">A. Server-side image maps</div>
+            <div id="answerB4">B. Client-side image maps</div>
+            <div id="answerC4">C. Server-side image maps and Client-side image maps</div>
+        </div>
+/* quiz scores here*/
+        <div class="flashc" id="score">
+            <div>
+                Enter Your Name Here Pin Your Score.
+            </div>
+        </div>
+
+    
+        <script src="./assets/code.js"></script>
+</body>
+</html>

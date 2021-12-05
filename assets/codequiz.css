@@ -1,0 +1,32 @@
+body {
+  background-color: #586979;
+  height: 100%;
+}
+
+#first,
+#quizstart,
+#begin,
+.flashc {
+  text-align: center;
+  background-color: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flashc {
+  padding-bottom: 20px;
+  transform: translate(-8vh);
+  position: relative;
+  top: 50vh;
+  border: 4px solid red;
+  margin: auto 25vw;
+}
+
+.score {
+  padding-bottom: 12px;
+}
+
+.flashc div {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  cursor: pointer;
+}
