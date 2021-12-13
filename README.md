@@ -4,4 +4,4 @@
 
 ## press start to begin the quiz question. you can click an answer (wrong or right) and the slide will still change. im trying to make it where u cant go forward wit the question if u answer wrong but still haven't found out how. getting to the last slide you can put your initials or name and see it come out on the Devtools under console
 
-[title](https://guzmang2023.github.io/Code-Quiz-04/) <~~ click here for page
+[title](file:///Users/GGuzman/Desktop/projects/Code-Quiz-04/quiz.html) <~~ click here for page
