@@ -1,7 +1,3 @@
-
-
-
-
 // questions javascript
 $(".flashc").hide();
 $("#first").show();
